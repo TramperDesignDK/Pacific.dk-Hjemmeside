@@ -2,6 +2,7 @@ const activities = ["https://cdn.discordapp.com/attachments/485357955341090825/9
 
 
 
+
 setInterval(() => {
     // generate random number between 1 and list length.
     const randomIndex = Math.floor(Math.random() * (activities.length - 1) + 1);

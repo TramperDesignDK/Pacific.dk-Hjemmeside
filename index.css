@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
     
 }
 
@@ -87,6 +88,7 @@ html {
 }
 
 .background {
+    transition: opacity 0.3s;
     position: absolute;
     width: 750px;
     height: 450px;
@@ -100,6 +102,11 @@ html {
 
 }
 
+.background:hover {
+    opacity: 0.90;
+
+}
+
 .background h1 {
     color: white;
     font-weight: 600;
@@ -108,10 +115,11 @@ html {
 }
 
 .background h3 {
-    color: rgb(223, 223, 223);
+    color: rgb(197, 197, 197);
     font-weight: 500;
     text-align: left;
     margin-left: 5px;
+    text-align: center;
 
 }
 
@@ -123,4 +131,21 @@ html {
     top: 50px;
 
 }
+
+.spillertal a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background: #33b864;
+    width: 120px;
+    height: 40px;
+    line-height: 2.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    border-radius: 9px;
+    text-align: center;
+    opacity: 1;
+}
+
 
