@@ -9,6 +9,15 @@
     background: rgb(39, 39, 39);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 h1 {
     position: absolute;
@@ -83,221 +92,448 @@ h1 {
 }
 
 
-.content_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 20%;
-    transform: translateX(-50%);
-    top: 200px;
-    content: '';
-    transition: box-shadow .3s;
+@media only screen and (min-width: 2000px) {
+    .content_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 20%;
+        transform: translateX(-50%);
+        top: 200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
     
-}
-
-.content_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.unban_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 200px;
-    content: '';
-    transition: box-shadow .3s;
+    .content_card:hover {
+        box-shadow: 10px 10px #33b864;
     
-}
-
-.unban_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.staff_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 79.5%;
-    transform: translateX(-50%);
-    top: 200px;
-    content: '';
-    transition: box-shadow .3s;
+    }
     
-}
-
-.staff_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.lege_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 700px;
-    content: '';
-    transition: box-shadow .3s;
+    .unban_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
     
-}
-
-.lege_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.mek_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 20%;
-    transform: translateX(-50%);
-    top: 700px;
-    content: '';
-    transition: box-shadow .3s;
+    .unban_card:hover {
+        box-shadow: 10px 10px #33b864;
     
-}
-
-.mek_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.edc_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 79.5%;
-    transform: translateX(-50%);
-    top: 1200px;
-    content: '';
-    transition: box-shadow .3s;
+    }
     
-}
-
-.edc_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.advokat_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 1200px;
-    content: '';
-    transition: box-shadow .3s;
+    .staff_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 79.5%;
+        transform: translateX(-50%);
+        top: 200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
     
-}
-
-.advokat_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.bande_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 79.5%;
-    transform: translateX(-50%);
-    top: 700px;
-    content: '';
-    transition: box-shadow .3s;
+    .staff_card:hover {
+        box-shadow: 10px 10px #33b864;
     
-}
-
-.bande_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.pdm_card {
-    border-radius: 20px;
-    position: absolute;
-    background: #333;
-    width: 25%;
-    height: 40%;
-    left: 20%;
-    transform: translateX(-50%);
-    top: 1200px;
-    content: '';
-    transition: box-shadow .3s;
+    }
     
-}
-
-.pdm_card:hover {
-    box-shadow: 10px 10px #33b864;
-
-}
-
-.itemname {
-    position: absolute;
-    display: flex;
-    left: 50%;
-    transform: translate(-50%);
-    color: #33b864;
-    background: transparent;
-    font-size: 25px;
-    top: 5px;
+    .lege_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 700px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
     
+    .lege_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .mek_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 20%;
+        transform: translateX(-50%);
+        top: 700px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .mek_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .edc_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 79.5%;
+        transform: translateX(-50%);
+        top: 1200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .edc_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .advokat_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .advokat_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .bande_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 79.5%;
+        transform: translateX(-50%);
+        top: 700px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .bande_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .pdm_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 33%;
+        left: 20%;
+        transform: translateX(-50%);
+        top: 1200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .pdm_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .itemname {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%);
+        color: #33b864;
+        background: transparent;
+        font-size: 25px;
+        top: 5px;
+        
+    }
+    
+    .itemimg {
+        position: relative;
+        width: 640px;
+        top: 40px;
+        object-fit: scale-down;
+        background: transparent;
+    }
+    
+    .itembutton {
+        position: absolute;
+        background-color: #33b864;
+        color: white;
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        line-height: 38px;
+        border-radius: 5px;
+        font-size: 17px;
+        left:50%;
+        transform: translateX(-50%);
+        top: 380px;
+        text-decoration: none;
+    }
+    
+    
+    .itemnamepdm {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%);
+        color: #33b864;
+        background: transparent;
+        font-size: 25px;
+        top: 5px;
+        width: 350px;
+    }
 }
 
-.itemimg {
-    position: relative;
-    width: 475px;
-    top: 50px;
-    object-fit: scale-down;
-    background: transparent;
-}
-
-.itembutton {
-    position: absolute;
-    background-color: #33b864;
-    color: white;
-    text-align: center;
-    width: 70px;
-    height: 35px;
-    line-height: 35px;
-    border-radius: 5px;
-    font-size: 17px;
-    left:50%;
-    transform: translateX(-50%);
-    top: 340px;
-}
 
 
-.itemnamepdm {
-    position: absolute;
-    display: flex;
-    left: 50%;
-    transform: translate(-50%);
-    color: #33b864;
-    background: transparent;
-    font-size: 25px;
-    top: 5px;
-    width: 350px;
+@media only screen and (max-width: 1920px) {
+    .content_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 20%;
+        transform: translateX(-50%);
+        top: 200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .content_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .unban_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .unban_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .staff_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 79.5%;
+        transform: translateX(-50%);
+        top: 200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .staff_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .lege_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 700px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .lege_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .mek_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 20%;
+        transform: translateX(-50%);
+        top: 700px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .mek_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .edc_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 79.5%;
+        transform: translateX(-50%);
+        top: 1200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .edc_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .advokat_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .advokat_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .bande_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 79.5%;
+        transform: translateX(-50%);
+        top: 700px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .bande_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .pdm_card {
+        border-radius: 20px;
+        position: absolute;
+        background: #333;
+        width: 25%;
+        height: 40%;
+        left: 20%;
+        transform: translateX(-50%);
+        top: 1200px;
+        content: '';
+        transition: box-shadow .3s;
+        
+    }
+    
+    .pdm_card:hover {
+        box-shadow: 10px 10px #33b864;
+    
+    }
+    
+    .itemname {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%);
+        color: #33b864;
+        background: transparent;
+        font-size: 25px;
+        top: 5px;
+        
+    }
+    
+    .itemimg {
+        position: relative;
+        width: 420px;
+        top: 50px;
+        object-fit: scale-down;
+        background: transparent;
+    }
+    
+    .itembutton {
+        position: absolute;
+        background-color: #33b864;
+        color: white;
+        text-align: center;
+        width: 70px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 5px;
+        font-size: 17px;
+        left:50%;
+        transform: translateX(-50%);
+        top: 330px;
+        text-decoration: none;
+    }
+    
+    
+    .itemnamepdm {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%);
+        color: #33b864;
+        background: transparent;
+        font-size: 25px;
+        top: 5px;
+        width: 350px;
+    }
 }
